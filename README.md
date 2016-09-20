@@ -1,5 +1,6 @@
 # BIGnav
 Bayesian Information Gain for guiding Multiscale Navigation 
+
 There are three documents:
 
 - Python codes for 1D simulation
