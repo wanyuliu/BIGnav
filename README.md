@@ -27,8 +27,11 @@ To make the computation tractable, the user input Y is currently discretized int
 Finally, the environment is enabled by ZVTM. You can find more information here: http://zvtm.sourceforge.net
 
 Also, if you want to know more about information theory and bayesian experimental design, here are some references:
+
 [1] Cover, T. M., & Thomas, J. A. (2012). Elements of information theory. John Wiley & Sons.
+
 [2] Théorie de l'information et du codage (en français): http://perso.telecom-paristech.fr/~rioul/books/theorieinfocodage.html
+
 [3] Chaloner, K., & Verdinelli, I. (1995). Bayesian experimental design: A review. Statistical Science, 273-304.
 
 
