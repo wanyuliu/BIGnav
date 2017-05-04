@@ -21,7 +21,7 @@ To make BIGnav work, you also need 3 functions:
 (3) At each step, BIGnav goes over all the possible views and locates the one that is maximally informative from the user's subsequent input. This is defined in the function BestWP().
 
 
-To make the computation tractable, the user input Y is currently discretized into 8 panning directions and 1 zooming-in region. This is defined in the function direction(). And the view is discretized into tiles, so BIGnav would search in this set instead of searching the whole space. In the future, we would like to reduce the size of the tiles and increase the number of panning directions to provide finer control.
+To make the computation tractable, the user input Y is currently discretized into 8 panning directions and 1 zooming-in region. This is defined in the function direction(). And the view is discretized into tiles (200 × 150 pixels each), so BIGnav would search in this set instead of searching the whole space. In the future, we would like to reduce the size of the tiles and increase the number of panning directions to provide finer control.
 
 
 Finally, the environment is enabled by ZVTM. You can find more information here: http://zvtm.sourceforge.net
