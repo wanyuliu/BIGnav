@@ -281,7 +281,9 @@ class MainListener extends ViewAdapter implements ViewListener {
 
         // Button uncertainty
         // input should consider panning, zooming and clicking on each object
-        // so the input is from 0 to n (the number of objects) plus the panning and zooming inputs
+        // so the input is from 0 to n (the number of objects) plus the panning and zooming inputs 
+        // here user_input is a variable corresponding to the panning and zooming inputs in the specific applications
+        // e.g. if you have 10 objects and 10 panning & zooming inputs, user_input = 10 + 10 = 20
         for (int input = 0; input < n + user_input; input++){
             if (P_BI(input, vc_x, vc_y, zlevel) != 0){
                 bu_temp = - P_BI(input, vc_x, vc_y, zlevel) * Math.log(P_BI(input, vc_x, vc_y, zlevel));
